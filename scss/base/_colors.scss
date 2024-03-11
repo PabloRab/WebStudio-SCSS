@@ -1,15 +1,26 @@
-$timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+:root {
+    --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    --background-work: rgba(47, 48, 58, 0.80);
+    --web: #2196F3;
+    --head-studio: #000;
+    --hover-color: #2196F3;
+    --after-hover-color: #2a71af;
+    --head-nav: #212121;
+    --head-contacts: #757575;
+    --header-border: #ECECEC;
     
+    --icon-bg: #AFB1B8;
+    --white-color: #fff;
+    --button: #2196F3;
+    --bacraund-color: #2F303A;
+    --main-titles: #212121;
+    --text-color: #757575;
+    --bottom-section-bg: #F5F4FA;
+    --border-color-portfolio: #eee;
     
-$head-studio: #000;
-$hover-color: #2196F3;
-$after-hover-color: #2a71af;     
-$header-border: #ECECEC;    
-$icon-bg: #AFB1B8;       
-$bacraund-color: #2F303A;
-$main-titles: #212121;
-$text-color: #757575;
-$bottom-section-bg: #F5F4FA;
-$border-color-portfolio: #eee; 
-$foot-adress: #FFFFFF;    
-$bg-card: rgba(33, 150, 243, 0.90);
+    --foot-studio: #ffffff;
+    --foot-adress: #FFFFFF;
+
+    
+    --bg-card: rgba(33, 150, 243, 0.90);
+}

@@ -1,3 +1,26 @@
+:root {
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --background-work: rgba(47, 48, 58, 0.80);
+  --web: #2196F3;
+  --head-studio: #000;
+  --hover-color: #2196F3;
+  --after-hover-color: #2a71af;
+  --head-nav: #212121;
+  --head-contacts: #757575;
+  --header-border: #ECECEC;
+  --icon-bg: #AFB1B8;
+  --white-color: #fff;
+  --button: #2196F3;
+  --bacraund-color: #2F303A;
+  --main-titles: #212121;
+  --text-color: #757575;
+  --bottom-section-bg: #F5F4FA;
+  --border-color-portfolio: #eee;
+  --foot-studio: #ffffff;
+  --foot-adress: #FFFFFF;
+  --bg-card: rgba(33, 150, 243, 0.90);
+}
+
 html,
 body,
 div,
@@ -139,7 +162,92 @@ body {
 }
 
 .container {
-  width: 320px;
+  width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.header__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__navigation {
+  list-style: none;
+  color: #212121;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.header_nav__list {
+  width: 281px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_logo__wrap {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav-link:hover {
+  animation-name: changeColor;
+  animation-duration: 250ms;
+  animation-timing-function: var(timing-function);
+  animation-fill-mode: forwards;
+}
+
+@keyframes changeColor {
+  0% {
+    color: #757575;
+  }
+  100% {
+    color: #2196F3;
+  }
+}
+.site_nav__link {
+  color: #212121;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  margin-right: 93px;
+  position: relative;
+  transition-property: color;
+}
+
+.site_nav__link.current::after {
+  content: "";
+  display: block;
+  background-color: #2196F3;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  border-radius: 4px;
+  left: 0;
+  box-sizing: border-box;
+  bottom: -32px;
+}
+
+.header__navigation {
+  width: 281px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: #2196F3;
+  margin-right: 93px;
+}
+
+.black {
+  color: #000000;
 }/*# sourceMappingURL=main.css.map */
