@@ -3,6 +3,13 @@
     padding-bottom: 25px;
     
 }
+
+.header_contanct__link{
+    color: #757575;
+    display: flex;
+    align-items: center;
+}
+
 .header__wrap{
     display: flex;
     justify-content: space-between;
@@ -27,13 +34,14 @@
     
 }
 
-.site-nav-link:hover{
+.header_nav__item{
     animation-name: changeColor;
     animation-duration: 250ms;
-    animation-timing-function: var(timing-function);
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     animation-fill-mode: forwards;
 
 }
+
 @keyframes changeColor {
     0% {
         color: #757575;
@@ -71,12 +79,19 @@
 
 }
 
-
 .header__navigation{
+    list-style: none;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.header_nav__list{
     width: 281px;
     display: flex;
     justify-content: space-between;
 }
+
 
 .logo{
     font-family: 'Raleway', sans-serif;
@@ -90,3 +105,37 @@
     color: #000000;
 }
 
+.header__contacts-list{
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    transition-property: color;
+}
+
+.header_nav__list{
+    width: 281px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-icon{
+    margin-right: 10px;
+}
+
+.header__contacts-list .contanct-link:hover{
+    animation-name: changeColor;
+    animation-duration: 250ms;
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    animation-fill-mode: forwards;
+}
+
+.header_contanct__link:hover .contact-icon{
+    fill: #2196F3;
+    transition-duration: 250ms;
+}
+.header__email{
+    margin-right: 50px;
+    color: #757575;
+    
+}
