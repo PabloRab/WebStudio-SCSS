@@ -13,41 +13,41 @@
     
     <body class="body">
         <header class="header">
-          <div class="container header-wrap">
-            <div class="logo-wrap">
+          <div class="container header__wrap">
+            <div class="header_logo__wrap">
             <a class="logo" href="./index.html">Web<span class="black">Studio</span></a>
-            <nav class="navigation">
-                <ul  class="site-nav">
-                 <li class="site-nav-item">
-                    <a class="site-nav-link" href="./index.html">Студія</a>
+            <nav class="header__navigation">
+                <ul  class="header_nav__list">
+                 <li class="header_nav__item">
+                    <a class="site_nav__link current"  href="./index.html">Студія</a>
                   </li>
-                 <li class="site-nav-item">
-                    <a class="site-nav-link link-portfolio current" href="./portpfolio.html">Портфоліо</a>
+                 <li class="header_nav__item">
+                    <a class="site_nav__link" href="./portpfolio.html">Портфоліо</a>
                   </li>
-                 <li class="site-nav-item">
-                    <a class="site-nav-link" href="#">Контакт</a>
+                 <li class="header_nav__item">
+                    <a class="site_nav__link" href="#">Контакт</a>
                   </li>
                 </ul>
             </nav>
         </div>
-        <ul class="contacts">
-            <li class="contacts-item mail">
-               <a class="contanct-link" href="info@devstudio.com">
-                   <svg class="contact-icon" width="16" height="12">
-                       <use href="./img/symbol-defs.svg#icon-envelope"></use>
-                   </svg>
-                   info@devstudio.com</a>
-             </li>
-            <li class="contacts-item">
-               <a class="contanct-link" href="#">
-                   <svg class="contact-icon" width="12" height="16">
-                       <use href="./img/symbol-defs.svg#icon-phone"></use>
-                   </svg>
-                   +380961111111</a>
-           </li>
-       </ul>
-     </div>
-   </header>
+             <ul class="header__contacts-list">
+                 <li class="header__contact header__email">
+                    <a class="header_contanct__link" href="info@devstudio.com">
+                        <svg class="contact-icon" width="16" height="12">
+                            <use href="./img/symbol-defs.svg#icon-envelope"></use>
+                        </svg>
+                        info@devstudio.com</a>
+                  </li>
+                 <li class="header__contact">
+                    <a class="header_contanct__link" href="#">
+                        <svg class="contact-icon" width="12" height="16">
+                            <use href="./img/symbol-defs.svg#icon-phone"></use>
+                        </svg>
+                        +380961111111</a>
+                </li>
+            </ul>
+          </div>
+        </header>
 
     <main class="main">
         <section class="work-block">
@@ -186,43 +186,43 @@
   </section>
  </main>
  <footer class="footer">
-    <div class="container footer-wrap">
-        <div><a class="footer-logo" href="index.html">Web<span class="white">Studio</span></a>
-            <address class="footer-address">
-                <ul class="footer-list">
-                    <li class="contacts-list-item">
-                <a class="footer-city" href="">м. Київ, пр-т Лесі Українки, 26</a>
+    <div class="container footer__wrap">
+        <div><a class="footer__logo" href="index.html">Web<span class="white">Studio</span></a>
+            <address class="footer__address">
+                <ul class="footer__list">
+                    <li class="contacts_list__item">
+                <a class="footer__city" href="">м. Київ, пр-т Лесі Українки, 26</a>
             </li>
-            <li class="contacts-list-item">
-                <a class="footer-navigation" href="info@devstudio.com">info@devstudio.com</a>
+            <li class="contacts_list__item">
+                <a class="footer__navigation" href="info@devstudio.com">info@devstudio.com</a>
             </li>
-            <li class="contacts-list-item">
-                <a class="footer-navigation" href="+380961111111">+38 096 111 11 11</a>
+            <li class="contacts_list__item">
+                <a class="footer__navigation" href="+380961111111">+38 096 111 11 11</a>
             </li>
             </ul>
             </address></div>
     <div>
-        <h3 class="footer-title">
+        <h3 class="footer__title">
             приєднуйтесь
         </h3>
-        <ul class="footer-list-icon">
-            <li class="footer-list-item"><a href="#" class="footer-link">
-                <svg class="footer-icon">
+        <ul class="footer_list__icon">
+            <li class="footer_list__item"><a href="#" class="footer-link">
+                <svg class="footer__icon">
                     <use href="./img/symbol-defs.svg#icon-instagram"></use>
                 </svg>
             </a></li>
-            <li class="footer-list-item"><a href="#" class="footer-link">
-                <svg class="footer-icon">
+            <li class="footer_list__item"><a href="#" class="footer-link">
+                <svg class="footer__icon">
                     <use href="./img/symbol-defs.svg#icon-twitter"></use>
                 </svg>
             </a></li>
-            <li class="footer-list-item"><a href="#" class="footer-link">
-                <svg class="footer-icon">
+            <li class="footer_list__item"><a href="#" class="footer-link">
+                <svg class="footer__icon">
                     <use href="./img/symbol-defs.svg#icon-facebook"></use>
                 </svg>
             </a></li>
-            <li class="footer-list-item"><a href="#" class="footer-link">
-                <svg class="footer-icon">
+            <li class="footer_list__item"><a href="#" class="footer-link">
+                <svg class="footer__icon">
                     <use href="./img/symbol-defs.svg#icon-linkedin"></use>
                 </svg>
             </a></li>
@@ -230,15 +230,15 @@
     </div>
     <div>
 
-        <form class="footer-social subscribe"></form>
-        <h3 class="list-name">Підпишіться на розсилку</h3>
+        <form class="footer__social subscribe"></form>
+        <h3 class="list__name">Підпишіться на розсилку</h3>
 
-                <div class="input-container">
-                    <input class="input-subscribe" required placeholder="E-mail" type="email">
+                <div class="input__container">
+                    <input class="input__subscribe" required placeholder="E-mail" type="email">
 
-                    <button class="button-subscribe" type="button">
+                    <button class="button__subscribe" type="button">
                         Підписатися
-                        <img class="send-icon" src="./img/telegram.svg" alt="">
+                        <img class="send__icon" src="./img/telegram.svg" alt="">
                     </button>
         </div>
     </div>
