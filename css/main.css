@@ -701,6 +701,15 @@ body {
   fill: #FFFFFF;
 }
 
+.back-drop {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
 .backdrop {
   position: fixed;
   left: 0;
@@ -712,7 +721,7 @@ body {
   transition: opacity 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.backdrop.is__hidden {
+.backdrop.is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -720,7 +729,7 @@ body {
   transition: visibility 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.bacdrop.is__hiden.modal {
+.bacdrop.is-hiden .modal {
   transform: translate(-50%, -50%) scale(0);
 }
 
@@ -757,23 +766,23 @@ body {
   align-items: center;
 }
 
-.modal__icon {
+.modal-icon {
   fill: #000;
   transition-property: fill;
   transition-duration: 333ms;
 }
 
-.modal__icon:hover,
-.modal__icon:focus {
+.modal-icon:hover,
+.modal-icon:focus {
   fill: #2196F3;
 }
 
-.modal__form {
+.modal-form {
   width: 448px;
   margin: 0 40px;
 }
 
-.modal_form__title {
+.modal-form-title {
   color: var(--main-titles);
   text-align: center;
   font-family: "Roboto", sans-serif;
@@ -782,12 +791,12 @@ body {
   letter-spacing: 0.6px;
 }
 
-.modal_form__fill {
+.modal-form-fill {
   display: flex;
   flex-direction: column;
 }
 
-.modal_form__label {
+.modal-form-label {
   margin-bottom: 4px;
   color: #757575;
   font-family: "Roboto", sans-serif;
@@ -796,7 +805,7 @@ body {
   letter-spacing: 0.12px;
 }
 
-.modal_form__input {
+.modal-form-input {
   position: relative;
   padding-left: 40px;
   width: 408px;
@@ -806,16 +815,16 @@ body {
   margin-bottom: 10px;
 }
 
-.modal_form__label:focus {
+.modal-form-input:focus {
   outline: none;
   border-color: #2196F3;
 }
 
-.modal_form__label:focus.modal_form__icon {
+.modal-form-input:focus.modal-form-icon {
   fill: #2196F3;
 }
 
-.modal_form__icon {
+.modal-form-icon {
   position: absolute;
   margin-top: 30px;
   margin-left: 12px;
@@ -823,7 +832,7 @@ body {
   height: 18px;
 }
 
-.modal_form__icon:focus {
+.modal-form-icon:focus {
   fill: #2196F3;
 }
 
@@ -840,7 +849,7 @@ body {
   letter-spacing: 0.12px;
 }
 
-.policy__text {
+.policy-text {
   color: #757575;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
@@ -849,7 +858,7 @@ body {
   letter-spacing: 0.42px;
 }
 
-.policy__link {
+.policy-link {
   color: #2196F3;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
@@ -858,17 +867,17 @@ body {
   text-decoration-line: underline;
 }
 
-.modal_form__policy {
+.modal-form-policy {
   display: flex;
   margin-bottom: 34px;
 }
 
-.agree_btn__wrap {
+.agree-btn-wrap {
   display: flex;
   justify-content: center;
 }
 
-.agree__btn {
+.agree-btn {
   color: #FFFFFF;
   text-align: center;
   font-family: "Roboto", sans-serif;
