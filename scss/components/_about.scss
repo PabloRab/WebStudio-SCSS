@@ -3,8 +3,7 @@
     padding-bottom: 94px;
 }
 .about__site{
-    display: flex;
-    justify-content: space-between;
+    @include flex();
 }
 .about__title{
     color: #212121;
