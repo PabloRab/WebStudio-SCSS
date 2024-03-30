@@ -32,25 +32,25 @@
     
 }
 
-.header_nav__item{
-    animation-name: changeColor;
-    animation-duration: 250ms;
-    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    animation-fill-mode: forwards;
+// .header_nav__item{
+//     animation-name: changeColor;
+//     animation-duration: 250ms;
+//     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+//     animation-fill-mode: forwards;
 
-}
+// }
 
-@keyframes changeColor {
-    0% {
-        color: #757575;
+// @keyframes changeColor {
+//     0% {
+//         color: #757575;
 
 
-    }
+//     }
 
-    100% {
-        color: #2196F3;
-    }
-}
+//     100% {
+//         color: #2196F3;
+//     }
+// }
 
 
 .site_nav__link{
@@ -130,8 +130,14 @@
     fill: #2196F3;
     transition-duration: 250ms;
 }
+
+
 .header__email{
     margin-right: 50px;
     color: #757575;
     
 }
+.site_nav__link:hover{
+    color: #2196F3;
+}
+

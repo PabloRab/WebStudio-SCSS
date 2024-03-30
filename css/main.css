@@ -210,21 +210,6 @@ body {
   align-items: center;
 }
 
-.header_nav__item {
-  animation-name: changeColor;
-  animation-duration: 250ms;
-  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  animation-fill-mode: forwards;
-}
-
-@keyframes changeColor {
-  0% {
-    color: #757575;
-  }
-  100% {
-    color: #2196F3;
-  }
-}
 .site_nav__link {
   color: #212121;
   align-items: center;
@@ -307,6 +292,10 @@ body {
 .header__email {
   margin-right: 50px;
   color: #757575;
+}
+
+.site_nav__link:hover {
+  color: #2196F3;
 }
 
 .hero {
