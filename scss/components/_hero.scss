@@ -1,31 +1,31 @@
-
-
-.hero{
+   .hero{
+    padding-top: 118px;
+    padding-bottom: 118px;
     background-color: #2F303A;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    background-image: url(../img/header-bg.webp);
+    background-image: url(../../img/header-bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
-}
+   }
 
-.hero__title{
+    .hero__title{
     color: #fff;
     text-align: center;
     line-height: 136%;
-    font-size: 44px;
+    font-size: 26px;
     font-weight: 900;
     text-transform: uppercase;
     margin-bottom: 30px;
+
+    
 }
 
-.hero__button{
+    .hero__button{
+    display: block;
+    margin: 0 auto;
     color: #FFF;
     background-color: #2196F3;
     font-size: 16px;
     font-weight: 700;
-    width: 216px;
-    height: 50px;
     padding: 10px 32px;
     border: none;
     border-radius: 4px;
@@ -33,7 +33,58 @@
     cursor: pointer;
 }
 
-.hero__wrap{
-    display: flex;
-    justify-content: center;
-}
+
+   @media screen and (min-width: 1200px) {
+    .hero{
+        padding-top: 200px;
+        padding-bottom: 200px;
+       }
+
+       .hero__title{
+        font-size: 44px;
+    }
+
+    .hero__button{
+        padding: 10px 32px;
+    }
+    
+   }
+
+
+// .hero{
+//     background-color: #2F303A;
+//     padding-top: 200px;
+//     padding-bottom: 200px;
+//     background-image: url(../img/header-bg.webp);
+//     background-repeat: no-repeat;
+//     background-size: cover;
+// }
+
+// .hero__title{
+//     color: #fff;
+//     text-align: center;
+//     line-height: 136%;
+//     font-size: 44px;
+//     font-weight: 900;
+//     text-transform: uppercase;
+//     margin-bottom: 30px;
+// }
+
+// .hero__button{
+//     color: #FFF;
+//     background-color: #2196F3;
+//     font-size: 16px;
+//     font-weight: 700;
+//     width: 216px;
+//     height: 50px;
+//     padding: 10px 32px;
+//     border: none;
+//     border-radius: 4px;
+//     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+//     cursor: pointer;
+// }
+
+// .hero__wrap{
+//     display: flex;
+//     justify-content: center;
+// }
