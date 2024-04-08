@@ -143,6 +143,10 @@ body {
     padding: 0 15px;
 }
 
+img{
+    max-width: 100%;
+}
+
 @media screen and (min-width: 480px) {
     .container{
         width: 480px

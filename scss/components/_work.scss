@@ -1,23 +1,5 @@
 .work{
-    padding-bottom: 94px;
-}
-
-.work__img{
-    width: 370px;
-    height: 294px;
-}
-
-@media screen and (min-width: 480px){
-    .work{
-        display: none;
-    }
-    
-}
-
-@media screen and (min-width: 768px){
-    .work{
-        display: block;
-    }
+    display: none;
 }
 
 @media screen and (min-width: 1200px){
@@ -27,7 +9,7 @@
     }
 
     .work__title{
-        @extend %section-title;
+        // @extend %section-title;
         text-align: center;
         margin-bottom: 50px;
     }
