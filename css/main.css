@@ -186,7 +186,7 @@ img {
     width: 1200px;
   }
 }
-.clients__title {
+.clients__title, .work__title {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -447,6 +447,11 @@ img {
   display: none;
 }
 
+.work__title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 @media screen and (min-width: 1200px) {
   .work {
     display: block;
@@ -571,7 +576,7 @@ img {
   }
 }
 @media screen and (min-width: 768px) {
-  .team__ {
+  .team__site {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -641,6 +646,9 @@ img {
   .clients__item {
     width: 226px;
     height: 92px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -790,6 +798,60 @@ img {
   fill: #FFFFFF;
 }
 
+@media screen and (min-width: 480px) {
+  .input__subscribe {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .button__subscribe {
+    margin: 0 auto;
+  }
+  .footer__wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer__title {
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .white {
+    justify-content: left;
+  }
+  .footer__navigation {
+    justify-content: left;
+  }
+  .input__subscribe {
+    width: 358px;
+    padding-left: 12px;
+    height: 50px;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  .footer__list {
+    align-items: flex-start;
+    margin-right: 70px;
+  }
+  .footer__img {
+    align-items: flex-start;
+  }
+  .footer__box {
+    display: flex;
+    justify-content: space-between;
+  }
+  .input__container {
+    display: flex;
+    flex-direction: row;
+  }
+  .list__name {
+    margin-top: 0;
+    text-align: left;
+  }
+  .button__subscribe {
+    margin-left: 12px;
+  }
+}
 .back-drop {
   position: fixed;
   left: 0;

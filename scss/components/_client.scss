@@ -45,9 +45,12 @@
  
  
 @media screen and (min-width: 768px){ 
-    .clients__item{ 
+    .clients__item{
     width: 226px; 
-    height: 92px; 
+    height: 92px;
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
 } 
 } 
  
@@ -60,11 +63,9 @@
     font-size: 36px; 
 } 
     .clients__list{ 
-        flex-wrap: nowrap; 
+        flex-wrap: nowrap;
     } 
-        .clients__item{ 
- 
-} 
+
 }
 
 // .clients__list{
