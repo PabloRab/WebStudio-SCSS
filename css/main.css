@@ -453,6 +453,9 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
+  .work__title {
+    padding-top: 50px;
+  }
   .work {
     display: block;
     padding-bottom: 94px;
@@ -571,8 +574,15 @@ img {
 }
 
 @media screen and (min-width: 480px) {
+  .team_main__title {
+    padding-top: 50px;
+  }
   .team__list {
     width: 450px;
+    padding-bottom: 30px;
+  }
+  .team {
+    padding-bottom: 50px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -641,6 +651,9 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+  .clients__title {
+    padding-top: 50px;
   }
 }
 @media screen and (min-width: 768px) {
