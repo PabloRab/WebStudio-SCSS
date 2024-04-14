@@ -39,7 +39,11 @@
 @media screen and (min-width: 480px){ 
     .clients__list{ 
         display: flex;
-    justify-content: space-between; 
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+        
+        
 } 
 } 
  
@@ -50,7 +54,7 @@
     height: 92px;
     display: flex; 
     justify-content: space-between; 
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 } 
 } 
  
@@ -64,6 +68,7 @@
 } 
     .clients__list{ 
         flex-wrap: nowrap;
+        justify-content: center;
     } 
 
 }
