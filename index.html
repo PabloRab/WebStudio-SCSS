@@ -47,7 +47,70 @@
             </li>
         </ul>
       </div>
-    </header>
+
+
+
+
+            <!-- mobile menu -->
+            <button type="button" class="menu__button js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+                <svg class="menu__button-open">
+                  <use href="./img/symbol-defs-menu.svg#icon-open"></use>
+                </svg>
+              </button>
+              <div class="menu__container js-menu-container" id="mobile-menu">
+                <button type="button" class="menu__button js-close-menu">
+                  <svg class="menu__button-close js-close-menu">
+                    <use href="./img/symbol-defs-menu.svg#icon-close"></use>
+                  </svg>
+                </button>
+                <div class="menu__box">
+                  <div class="mobile__menu">
+                    <nav class="mobile__nav">
+                      <ul class="mobile__nav-list">
+                        <li class="mobile__nav-item">
+                          <a href="" class="mobile__nav-link">Студія</a>
+                        </li>
+                        <li class="mobile__nav-item">
+                          <a href="" class="mobile__nav-link">Портфоліо</a>
+                        </li>
+                        <li class="mobile__nav-item">
+                          <a href="" class="mobile__nav-link">Контакти</a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                  <div class="mobile__socials">
+                    <ul class="mobile__contacts">
+                      <li class="mobile__contacts-item">
+                        <a href="tel:+380961111111" class="mobile__contacts-tel">+380961111111</a>
+                      </li>
+                      <li class="mobile__contacts-item">
+                        <a href="mailto:info@devstudio.com" class="mobile__contacts-mail">info@devstudio.com</a>
+                      </li>
+                    </ul>
+                    <ul class="mobile__socials-list">
+                      <li class="mobile__socials-item">
+                        <a href="" class="mobile__socials-link">Instagram</a>
+                      </li>
+                      <li class="mobile__socials-item">
+                        <a href="" class="mobile__socials-link">Twitter</a>
+                      </li>
+                      <li class="mobile__socials-item">
+                        <a href="" class="mobile__socials-link">Facebook</a>
+                      </li>
+                      <li class="mobile__socials-item">
+                        <a href="" class="mobile__socials-link">LinkedIn</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              
+            </header>
+        
+        
+        
+
 
     <main class="main">
         <!--Main section-->
@@ -405,5 +468,6 @@
     </div>
 
     <script src="./script.js"></script>
+    <script src="./mobile-menu.js"></script>
 </body>
 </html>
